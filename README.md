@@ -20,7 +20,7 @@ pip install requirements.txt
 ```
 3) Run servers
 
-Run the commands in the following order
+Launch a terminal for each of the following commands and then run them in the following order
 ```
 python math_server.py
 ```
