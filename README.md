@@ -1,6 +1,6 @@
 # agent
 
-This project features a multi-agent system built with adk by exploiting the A2A and MCP protocols.
+This project features a multi-agent system built with the ADK framework by exploiting the A2A and MCP protocols.
 The MCP servers are for demonstration purposes thus they feature simple tools.
 
 ## Usage
