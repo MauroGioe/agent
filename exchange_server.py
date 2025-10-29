@@ -44,6 +44,6 @@ def get_exchange_rate(
 def main():
     # Initialize and run the server
     mcp.run(transport='streamable-http')
-#fastmcp install mcp-json mcp_server_prova.py
+
 if __name__ == "__main__":
     main()
