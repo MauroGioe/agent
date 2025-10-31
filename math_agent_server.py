@@ -48,7 +48,7 @@ async def run_agent():
 
     math_tools = return_http_mcp_tools_search()
 
-    google_search_agent = ADKAgent(
+    math_agent = ADKAgent(
         model=MODEL,
         name="math_agent",
         description="Handles mathematical queries",
@@ -59,7 +59,7 @@ async def run_agent():
     )
 
     task_manager = generate_agent_task_manager(
-        agent=google_search_agent,
+        agent=math_agent,
     )
     server = A2AServer(
         host=HOST,
